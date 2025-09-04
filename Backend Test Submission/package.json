@@ -1,12 +1,25 @@
 {
   "name": "backend-test-submission",
   "version": "1.0.0",
-  "description": "",
+  "description": "URL Shortener Microservice",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "moment-timezone": "^0.6.0",
+    "morgan": "^1.10.1",
+    "nanoid": "^5.1.5",
+    "validator": "^13.15.15",
+    "winston": "^3.17.0"
+  }
 }
